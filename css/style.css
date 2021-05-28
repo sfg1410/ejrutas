@@ -1,0 +1,66 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+.experiencias{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 0em 1em;
+    width: 150px;
+    text-align: center;
+}
+.container{
+    margin-top: 20px;
+    height: calc(100vh - 200px);
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cajas{
+    border: 1px solid gray;
+    height: 100%;
+    width: 30%;
+}
+#foto{
+    width: 100%;
+}
+.elementos {
+    display: flex;
+    justify-content: space-between;
+
+}
+.cantidad{
+    display: flex;
+    justify-content: space-around;
+}
+.redondo{
+    border: 1px solid gray;
+    border-radius: 2em;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 100%;
+}
+.ruta{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 0.5em;
+    border: gray 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redondo img{
+    height: 90%;
+}
+.icono{
+    height: 70%;
+}
