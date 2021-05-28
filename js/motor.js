@@ -306,7 +306,7 @@ function miexperiencia0(x) {
     ${mascotas(`${x}`)}
 </div>
 <div class="cantidad">
-    <div id="precio">${experiencia0[x].precio}</div><span>€</span>
+    <div id="precio">${experiencia0[x].precio}</div>
     
     <div onclick="menos(${x})">-</div>
     <div id="cantidad">1</div>
@@ -505,32 +505,33 @@ function multiplica(x) {
     let vervalor=parseInt(document.getElementById('cantidad').innerHTML);
     let verprecio=experiencia0[x].precio;
     let total =vervalor*verprecio;
-    document.getElementById('precio').innerHTML=total;
+    totalD=total+" €";
+    document.getElementById('precio').innerHTML=totalD;
 }
-function multiplica(x) {
-    let vervalor=parseInt(document.getElementById('cantidad').innerHTML);
-    let verprecio=experiencia1[x].precio;
-    let total =vervalor*verprecio;
-    document.getElementById('precio').innerHTML=total;
-}
-function multiplica(x) {
-    let vervalor=parseInt(document.getElementById('cantidad').innerHTML);
-    let verprecio=experiencia2[x].precio;
-    let total =vervalor*verprecio;
-    document.getElementById('precio').innerHTML=total;
-}
-function multiplica(x) {
-    let vervalor=parseInt(document.getElementById('cantidad').innerHTML);
-    let verprecio=experiencia3[x].precio;
-    let total =vervalor*verprecio;
-    document.getElementById('precio').innerHTML=total;
-}
-function multiplica(x) {
-    let vervalor=parseInt(document.getElementById('cantidad').innerHTML);
-    let verprecio=experiencia4[x].precio;
-    let total =vervalor*verprecio;
-    document.getElementById('precio').innerHTML=total;
-}
+// function multiplica(x) {
+//     let vervalor=parseInt(document.getElementById('cantidad').innerHTML);
+//     let verprecio=experiencia1[x].precio;
+//     let total =vervalor*verprecio;
+//     document.getElementById('precio').innerHTML=total;
+// }
+// function multiplica(x) {
+//     let vervalor=parseInt(document.getElementById('cantidad').innerHTML);
+//     let verprecio=experiencia2[x].precio;
+//     let total =vervalor*verprecio;
+//     document.getElementById('precio').innerHTML=total;
+// }
+// function multiplica(x) {
+//     let vervalor=parseInt(document.getElementById('cantidad').innerHTML);
+//     let verprecio=experiencia3[x].precio;
+//     let total =vervalor*verprecio;
+//     document.getElementById('precio').innerHTML=total;
+// }
+// function multiplica(x) {
+//     let vervalor=parseInt(document.getElementById('cantidad').innerHTML);
+//     let verprecio=experiencia4[x].precio;
+//     let total =vervalor*verprecio;
+//     document.getElementById('precio').innerHTML=total;
+// }
 // function sumar(x) {
    
 //     let precio=parseInt(document.getElementById(`cantidad${x}`).innerHTML);
